@@ -1,0 +1,42 @@
+.left{
+  width:30%;
+  border:2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  margin : 1%;
+}
+img{
+  width:30%;
+}
+.right{
+  width:65%;
+  border-radius: 5px;
+  border:2px solid red;
+  margin : 1%;
+  padding: 2%;
+  background-color: gray ;
+}
+  .parent{
+    display: flex;
+  }
+  table{
+    width:100%;
+  }
+  table th,td{
+    border:1px solid gray;
+    border-collapse: collapse;
+  }table tr:nth-child(even){
+    background-color: gray;
+  }
+  @media screen and  (max-width:767px){
+    .parent
+    {
+      flex-wrap: wrap;
+    }
+    .left,.right{
+      width: 100%;
+    }
+    table {
+      font-size: 10px;
+    }
+  }

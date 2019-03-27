@@ -1,0 +1,45 @@
+{
+  "profile": {
+    "image":"images/image.jpg",
+    "name":"jagadeesh",
+    "designation":"student",
+    "mobile":"7997702460",
+    "email":"jagadeeshy163@gmail.com"
+
+  },
+  "career":{
+    "info":"to prove myself by soving a challenging problem"
+  },
+  "Education":
+  [
+    {
+      "Qualification":"Btech",
+      "Institute":"MITS",
+      "percentage":"80%",
+      "year":"2021"
+    },
+    {
+      "Qualification":"10+2",
+      "Institute":"narayana jr college",
+      "percentage":"96.5%",
+      "year":"2017"
+    },
+    {
+      "Qualification":"SSC",
+      "Institute":"Model EM school",
+      "percentage":"80%",
+      "year":"2015"
+    }
+
+  ],
+  "skills":[
+    {
+      "name":"web technologies",
+      "info":["HTML","CSE","JS"]
+    },
+    {
+      "name":"database",
+      "info":["jdbc","firebase","sql"]
+    }
+  ]
+  } 
